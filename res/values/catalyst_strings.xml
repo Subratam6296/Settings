@@ -102,4 +102,8 @@
     <string name="statusbar_items_title">Statusbar items</string>
     <!-- Display customization category -->
     <string name="customization_category_title">Customization</string>
+
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
 </resources>
