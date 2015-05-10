@@ -47,6 +47,12 @@
             android:fragment="com.android.settings.security.LockscreenDashboardFragment"
             settings:keywords="@string/keywords_ambient_display_screen"
             settings:controller="com.android.settings.security.screenlock.LockScreenPreferenceController"/>
+            
+        <com.arrow.support.preferences.SystemSettingSwitchPreference
+        	android:key="lockscreen_power_menu_disabled"
+        	android:title="@string/power_menu_hide_on_secure_title"
+        	android:summary="@string/power_menu_hide_on_secure_summary"
+        	android:defaultValue="false" />
 
         <com.android.settingslib.RestrictedPreference
             android:key="screen_timeout"
