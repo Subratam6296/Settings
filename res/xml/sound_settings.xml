@@ -177,6 +177,14 @@
         android:summary="@string/app_volume_summary"
         android:defaultValue="false"
         android:order="-5"/>
+        
+        <!-- Live Volume Steps -->
+    <Preference
+        android:key="volume_steps"
+        android:title="@string/volume_steps_title"
+        android:summary="@string/volume_steps_summary"
+        android:order="-125"
+        android:fragment="com.android.settings.android.VolumeSteps" />
 
     <!-- Dial pad tones -->
     <SwitchPreference
