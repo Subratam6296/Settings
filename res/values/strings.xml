@@ -14217,4 +14217,8 @@
     <string name="berry_black_theme_summary">Pure black background for dark theme</string>
     <string name="turn_on_dark_theme_info">Turn on dark theme first!</string>
 
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_options_title">Lock screen media art</string>
+    <string name="lockscreen_media_art_title">Media cover art</string>
+    <string name="lockscreen_media_art_summary">Display media cover art when available</string>
 </resources>
