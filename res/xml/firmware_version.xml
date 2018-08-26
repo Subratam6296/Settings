@@ -28,7 +28,16 @@
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:searchable="false"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>-->
+
+    <!-- Catalyst version -->
+    <Preference
+        android:key="catalyst_version"
+        android:title="@string/catalyst_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:searchable="false"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.CatalystVersionDetailPreferenceController"/>
 
     <!-- Security patch -->
     <Preference
