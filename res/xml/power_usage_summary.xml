@@ -81,6 +81,12 @@
             android:entries="@array/status_bar_battery_percentage_entries"
             android:entryValues="@array/status_bar_battery_percentage_values"
             android:defaultValue="0"/>
+            
+        <Preference
+        	android:key="batterybar_settings"
+        	android:title="@string/battery_bar_title"
+        	android:summary="@string/battery_bar_summary"
+        	android:fragment="com.android.settings.arrow.fragments.BatterybarSettings" />
 
     <SwitchPreference
         android:key="low_battery_light_enabled"
