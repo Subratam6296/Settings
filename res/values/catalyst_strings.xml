@@ -232,4 +232,11 @@
     <!-- Captive portal -->
     <string name="captive_portal_title">Connectivity check</string>
     <string name="captive_portal_summary">Determine if the device can connect to the internet, by contacting Google. Also used to detect captive portals.</string>
+    
+    <!-- Notifications general category -->
+    <string name="notifications_general_category_title">Customization</string>
+
+    <!-- Notification count -->
+    <string name="status_bar_notif_count_title">Show notifications count</string>
+    <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
 </resources>
