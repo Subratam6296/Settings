@@ -34,6 +34,13 @@
         android:key="connected_device_list"
         android:title="@string/connected_device_other_device_title"
         settings:controller="com.android.settings.connecteddevice.ConnectedDeviceGroupController"/>
+        
+    <Preference
+        android:key="default_usb_configuration"
+        android:fragment="com.android.settings.connecteddevice.usb.UsbDefaultFragment"
+        android:title="@string/usb_default_config_title"
+        android:icon="@drawable/ic_usbport"
+        android:summary="@string/usb_default_config_summary"/>
 
     <com.android.settingslib.RestrictedPreference
         android:key="add_bt_devices"
