@@ -88,6 +88,12 @@
             android:summary="@string/charging_animation_bg_summary"
             android:defaultValue="false" />
 
+    <Preference
+        android:fragment="com.android.settings.fuelgauge.smartcharging.SmartChargingSettings"
+        android:key="smart_charging_key"
+        android:title="@string/smart_charging_title"
+        android:summary="@string/smart_charging_summary" />
+
     <SwitchPreference
         android:key="low_battery_light_enabled"
         android:title="@string/low_battery_light_title"
