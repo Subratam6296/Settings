@@ -42,6 +42,7 @@ public class CatalystVersionDetailPreferenceController extends BasePreferenceCon
     private static final int ACTIVITY_TRIGGER_COUNT = 3;
 
     private static final String KEY_CATALYST_VERSION_PROP = "ro.modversion";
+    private static final String KEY_CATALYST_RELEASETYPE_PROP = "ro.catalyst.releasetype";
 
     private final UserManager mUserManager;
     private final long[] mHits = new long[ACTIVITY_TRIGGER_COUNT];
@@ -63,8 +64,8 @@ public class CatalystVersionDetailPreferenceController extends BasePreferenceCon
     @Override
     public CharSequence getSummary() {
 	String[] catalystVer = SystemProperties.get(KEY_CATALYST_VERSION_PROP).split("v");
-	if (!catalystVer[1].isEmpty())
-	    return catalystVer[1];
+	if (!catalystVer[1].isEmpty() && !catalystReleasetype.isEmpty())
+	    return catalystVer[1] + " | " + catalystReleasetype;;
 	else
             return mContext.getString(R.string.unknown);
     }
