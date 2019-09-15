@@ -495,4 +495,7 @@
     <string name="custom_theme_vivid">Vivid(Monet)</string>
     <string name="custom_theme_espresso">Espresso</string>
     <string name="custom_theme_snowpaintdrop">Snowpaintdrop</string>
+    
+    <!-- Themes customisation -->
+    <string name="theme_customization_systemui_title">Theme color</string>
 </resources>

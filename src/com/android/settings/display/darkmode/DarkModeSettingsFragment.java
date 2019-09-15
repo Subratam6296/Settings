@@ -41,9 +41,11 @@ public class DarkModeSettingsFragment extends DashboardFragment {
     private static final String TAG = "DarkModeSettingsFrag";
     private static final String DARK_THEME_END_TIME = "dark_theme_end_time";
     private static final String DARK_THEME_START_TIME = "dark_theme_start_time";
+    private static final String CUSTOM_OVERLAY_PREF_KEY ="android.theme.customization.theme_style";
     private DarkModeObserver mContentObserver;
     private DarkModeCustomPreferenceController mCustomStartController;
     private DarkModeCustomPreferenceController mCustomEndController;
+    private CustomOverlayPreferenceController mCustomOverlayController;
     private static final int DIALOG_START_TIME = 0;
     private static final int DIALOG_END_TIME = 1;
 
@@ -73,9 +75,11 @@ public class DarkModeSettingsFragment extends DashboardFragment {
                 DARK_THEME_START_TIME, this);
         mCustomEndController = new DarkModeCustomPreferenceController(getContext(),
                 DARK_THEME_END_TIME, this);
+        mCustomOverlayController = new CustomOverlayPreferenceController(getContext(),
+                CUSTOM_OVERLAY_PREF_KEY);
         controllers.add(mCustomStartController);
         controllers.add(mCustomEndController);
-        controllers.add(new BlackThemePreferenceController(getContext()));
+        controllers.add(mCustomOverlayController);
         return controllers;
     }
 
