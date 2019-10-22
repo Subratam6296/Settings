@@ -375,4 +375,8 @@
     <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
     <string name="adaptive_playback_timeout_10_min">10 minutes</string>
     <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
+    
+     <!-- Hide Lockscreen shortcuts on secure Lockscreen -->
+    <string name="lockscreen_hide_shortcuts_title">Hide bottom shortcuts</string>
+    <string name="lockscreen_hide_shortcuts_summary">Hide left-right shortcuts on secure lock screens</string>
 </resources>

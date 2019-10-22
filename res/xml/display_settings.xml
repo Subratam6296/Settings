@@ -54,6 +54,12 @@
             android:summary="@string/summary_placeholder"
             android:fragment="com.android.settings.display.ScreenTimeoutSettings"
             settings:controller="com.android.settings.display.ScreenTimeoutPreferenceController"/>
+            
+        <com.arrow.support.preferences.SecureSettingSwitchPreference 
+        	android:key="hide_lock_shortcuts"
+        	android:title="@string/lockscreen_hide_shortcuts_title"
+        	android:summary="@string/lockscreen_hide_shortcuts_summary"
+        	android:defaultValue="false" />
     </PreferenceCategory>
     
     <PreferenceCategory
