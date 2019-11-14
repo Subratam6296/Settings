@@ -11688,7 +11688,7 @@
     <string name="theme_customization_device_default">Device default</string>
 
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which turns on emulation of a display cutout. -->
-    <string name="display_cutout_emulation">Display cutout</string>
+    <string name="display_cutout_emulation">Notch City (restart SystemUI)</string>
 
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Search keywords for the setting which turns on emulation of a display cutout. -->
     <string name="display_cutout_emulation_keywords">display cutout, notch</string>
