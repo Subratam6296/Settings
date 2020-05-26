@@ -68,13 +68,14 @@ public class DarkModeSettingsFragment extends DashboardFragment {
 
     @Override
     protected List<AbstractPreferenceController> createPreferenceControllers(Context context) {
-        List<AbstractPreferenceController> controllers =  new ArrayList(2);
+        List<AbstractPreferenceController> controllers =  new ArrayList(3);
         mCustomStartController = new DarkModeCustomPreferenceController(getContext(),
                 DARK_THEME_START_TIME, this);
         mCustomEndController = new DarkModeCustomPreferenceController(getContext(),
                 DARK_THEME_END_TIME, this);
         controllers.add(mCustomStartController);
         controllers.add(mCustomEndController);
+        controllers.add(new BlackThemePreferenceController(getContext()));
         return controllers;
     }
 
