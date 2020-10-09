@@ -137,6 +137,10 @@
             android:summary="@string/quick_settings_vibrate_summary"
             android:defaultValue="false"/>
             
+            <SwitchPreference
+            android:key="enable_blurs_on_windows"
+            android:title="@string/window_blurs"/>
+            
             <com.arrow.support.preferences.SystemSettingSeekBarPreference
         	android:key="qs_transparency"
         	android:title="@string/qs_transparency_title"
