@@ -135,4 +135,8 @@
     <string name="profile_choose_app">Choose app</string>
     <string name="dialog_delete_title">Delete</string>
     <string name="dialog_delete_message">Remove selected item?</string>
+
+    <!-- Left volume panel -->
+    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <string name="volume_panel_on_left_summary">Move volume panel to the left side of the screen</string>
 </resources>
