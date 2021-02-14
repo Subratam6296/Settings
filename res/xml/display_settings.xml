@@ -332,6 +332,13 @@
             android:title="@string/pie_animation_style_title"
             android:summary="@string/pie_animation_style_summary"
             android:defaultValue="false" />
+        
+     <com.arrow.support.preferences.SystemSettingListPreference
+            android:key="ringtone_focus_mode"
+            android:title="@string/ringtone_focus_mode_title"
+            android:entries="@array/ringtone_focus_mode_entries"
+            android:entryValues="@array/ringtone_focus_mode_values"
+            android:defaultValue="1" />
             
      <ListPreference
             android:key="display_cutout_emulation"

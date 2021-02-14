@@ -513,4 +513,9 @@
     <string name="system_charging">System Charging Options</string>
     <string name="charging_animation_bg_title">Charging Background</string>
     <string name="charging_animation_bg_summary">Enabling this option will make the background on System Animation to black</string>
+    
+    <!-- Headset ringtone audio focus -->
+    <string name="ringtone_focus_mode_title">When headset connected, incoming call plays on</string>
+    <string name="ringtone_focus_mode_dynamic">Headset only if music is active</string>
+    <string name="ringtone_focus_mode_stock">Both speaker and headset</string>
 </resources>
