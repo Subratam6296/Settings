@@ -79,6 +79,7 @@ android_library {
         "WifiTrackerLib",
         "SettingsLibActivityEmbedding",
         "VendorSupport-preference",
+        "androidx.dynamicanimation_dynamicanimation",
     ],
 
     libs: [
