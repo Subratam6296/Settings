@@ -108,6 +108,12 @@
             android:title="@string/statusbar_colored_icons_title"
             android:summary="@string/statusbar_colored_icons_summary"
             android:defaultValue="false" />
+            
+        <com.arrow.support.preferences.SystemSettingSwitchPreference
+        	android:key="hide_lockscreen_status_bar"
+        	android:title="@string/hide_lockscreen_status_bar_title"
+        	android:summary="@string/hide_lockscreen_status_bar_summary"
+        	android:defaultValue="false" />
 
         <com.android.settings.display.darkmode.DarkModePreference
             android:key="dark_ui_mode"
