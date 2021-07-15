@@ -46,6 +46,8 @@ android_library {
 
     srcs: ["src/**/*.java", "src/**/*.kt"],
 
+    aaptflags: ["--extra-packages com.factor.bouncy"],
+
     static_libs: [
         "androidx-constraintlayout_constraintlayout",
         "androidx.slice_slice-builders",
@@ -80,6 +82,7 @@ android_library {
         "SettingsLibActivityEmbedding",
         "VendorSupport-preference",
         "androidx.dynamicanimation_dynamicanimation",
+        "bouncy",
     ],
 
     libs: [
@@ -140,4 +143,10 @@ filegroup {
 android_library_import {
     name: "glide",
     aars: ["libs/glide-4.9.0.aar"],
+}
+
+android_library_import {
+    name: "bouncy",
+    aars: ["libs/bouncy-release.aar"],
+    sdk_version: "current",
 }
