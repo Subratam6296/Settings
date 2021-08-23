@@ -441,7 +441,7 @@
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
         </Preference>
-        
+
         <com.arrow.support.preferences.SystemSettingListPreference
             android:key="power_menu_animations"
             android:title="@string/power_menu_animation_title"
