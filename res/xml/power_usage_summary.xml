@@ -81,6 +81,12 @@
         	android:title="@string/battery_bar_title"
         	android:summary="@string/battery_bar_summary"
         	android:fragment="com.android.settings.arrow.fragments.BatterybarSettings" />
+        	
+    <com.arrow.support.preferences.SystemSettingSwitchPreference
+            android:key="charging_animation_bg"
+            android:title="@string/charging_animation_bg_title"
+            android:summary="@string/charging_animation_bg_summary"
+            android:defaultValue="false" />
 
     <SwitchPreference
         android:key="low_battery_light_enabled"
