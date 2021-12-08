@@ -22,6 +22,7 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.os.Bundle;
+import android.os.UserHandle;
 import android.provider.Settings;
 import android.view.WindowManager;
 
@@ -158,13 +159,10 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
     private void initGestureNavbarLengthPreference() {
         final ContentResolver resolver = getContext().getContentResolver();
         mGestureNavbarLengthPreference = getPreferenceScreen().findPreference(GESTURE_NAVBAR_LENGTH_KEY);
-        mGestureNavbarLengthPreference.setEnabled(Settings.System.getIntForUser(
-            resolver, Settings.System.FULLSCREEN_GESTURES,
-            0, UserHandle.USER_CURRENT) == 0);
         mGestureNavbarLengthPreference.setContinuousUpdates(true);
         mGestureNavbarLengthPreference.setProgress(Settings.Secure.getIntForUser(
             resolver, Settings.Secure.GESTURE_NAVBAR_LENGTH_MODE,
-            0, UserHandle.USER_CURRENT));
+            1, UserHandle.USER_CURRENT));
         mGestureNavbarLengthPreference.setOnPreferenceChangeListener((p, v) ->
             Settings.Secure.putIntForUser(resolver, Settings.Secure.GESTURE_NAVBAR_LENGTH_MODE,
                 (Integer) v, UserHandle.USER_CURRENT));
