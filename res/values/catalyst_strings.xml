@@ -153,4 +153,7 @@
     <string name="battery_stat_capacity">Capacity</string>
     <string name="battery_stat_cycle">Cycle</string>
 
+    <!-- Hardware info -->
+    <string name="platform_revision">Platform</string>
+    <string name="total_ram">Total RAM</string>
 </resources>
