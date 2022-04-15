@@ -61,7 +61,7 @@ public class AppVersionPreferenceController extends AppInfoPreferenceControllerB
             }
         }
 
-        return ctx.getString(R.string.version_text,
+        return ctx.getString(R.string.package_version_text,
                 BidiFormatter.getInstance().unicodeWrap(packageInfo.versionName))
                 + "\n\n" + packageInfo.packageName
                 + "\nversionCode " + packageInfo.getLongVersionCode()
