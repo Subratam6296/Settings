@@ -65,6 +65,14 @@
             android:title="@string/toast_icon_title"
             android:summary="@string/toast_icon_summary"
             android:defaultValue="false" />
+            
+      <com.arrow.support.preferences.SystemSettingListPreference
+        android:key="heads_up_notifications_threshold"
+        android:title="@string/hun_importance_title"
+        android:summary="%s"
+        android:entries="@array/hun_importance_entries"
+        android:entryValues="@array/hun_importance_values"
+        android:defaultValue="4" />
         
         <com.arrow.support.preferences.SystemSettingSwitchPreference
             android:key="reticker_status"
