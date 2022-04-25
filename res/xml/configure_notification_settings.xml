@@ -75,6 +75,12 @@
         android:defaultValue="4" />
         
         <com.arrow.support.preferences.SystemSettingSwitchPreference
+            android:key="force_expanded_notifications"
+            android:title="@string/force_expanded_notifications_title"
+            android:summary="@string/force_expanded_notifications_summary"
+            android:defaultValue="false" />
+        
+        <com.arrow.support.preferences.SystemSettingSwitchPreference
             android:key="reticker_status"
             android:title="@string/reticker_title"
             android:summary="@string/reticker_summary"
