@@ -435,6 +435,12 @@
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
         </Preference>
+        
+        <Preference
+            android:key="android.theme.customization.style"
+            android:title="@string/theme_customization_ui_style_title"
+            android:summary="@string/theme_customization_ui_style_summary"
+            android:fragment="com.android.settings.arrow.fragments.ui.UIStyles"/>
     
         <Preference
             android:key="android.theme.customization.fonts"
