@@ -64,12 +64,12 @@ public class CatalystVersionDetailPreferenceController extends BasePreferenceCon
 
     @Override
     public CharSequence getSummary() {
-	String[] catalystVer = SystemProperties.get(KEY_CATALYST_VERSION_PROP).split("v");
+	String catalystVer = SystemProperties.get(KEY_CATALYST_VERSION_PROP);
 	String catalystReleasetype =  SystemProperties.get(KEY_CATALYST_RELEASETYPE_PROP);
     String catalystZiptype =  SystemProperties.get(KEY_CATALYST_ZIPTYPE_PROP);
 
-	if (!catalystVer[1].isEmpty() && !catalystReleasetype.isEmpty() && !catalystZiptype.isEmpty())
-	    return catalystVer[1] + " | " + catalystReleasetype + " | " + catalystReleasetype;
+	if (!catalystVer.isEmpty() && !catalystReleasetype.isEmpty() && !catalystZiptype.isEmpty())
+	    return catalystVer + " | " + catalystReleasetype + " | " + catalystZiptype;
 	else
             return mContext.getString(R.string.unknown);
     }
