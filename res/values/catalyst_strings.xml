@@ -188,5 +188,10 @@
     <string name="powermenu_soundpanel">Sound Panel</string>
     <string name="powermenu_users">Users</string>
     <string name="powermenu_logout">Logout</string>
-    <string name="powermenu_emergency">Emergency</string> 
+    <string name="powermenu_emergency">Emergency</string>
+    
+    <!-- Per-app volume control -->
+    <string name="app_volume">App volume</string>
+    <string name="app_volume_title">Per-app volume control</string>
+    <string name="app_volume_summary">Allow to set different volume levels for each app</string>
 </resources>
