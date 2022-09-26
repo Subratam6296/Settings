@@ -182,6 +182,12 @@
         	android:entryValues="@array/screen_off_animation_values"
         	android:summary="%s"
         	android:defaultValue="0" />
+        	
+           <Preference
+            android:key="monet_engine_settings"
+            android:title="@string/monet_engine_title"
+            android:summary="@string/monet_engine_summary"
+            android:fragment="com.arrow.settings.theme.MonetEngine" />
             
             <SwitchPreference
             android:key="enable_blurs_on_windows"
