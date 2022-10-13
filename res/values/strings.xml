@@ -14403,4 +14403,6 @@
     <string name="pulse_empty_block_size">Block spacing</string>
     <string name="unit_milliseconds">milliseconds</string>
     <string name="unit_pixels">dp</string>
+    <string name="pulse_solid_units_rounded_title">Rounded corners</string>
+    <string name="pulse_solid_units_rounded_summary">Solid lines with rounded tip</string>
 </resources>
