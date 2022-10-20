@@ -469,4 +469,8 @@
     <!--Volume keys -->
     <string name="volume_rocker_wake_title">Volume rocker wake</string>
     <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+    
+    <!-- Volume keys answer call -->
+    <string name="call_volume_answer_title">Answer call</string>
+    <string name="call_volume_answer_summary">Enable for volume keys to answer call</string>
 </resources>
