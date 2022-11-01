@@ -53,6 +53,12 @@
         	android:title="@string/power_menu_hide_on_secure_title"
         	android:summary="@string/power_menu_hide_on_secure_summary"
         	android:defaultValue="false" />
+        	
+        <com.arrow.support.preferences.SecureSettingSwitchPreference
+              android:key="qstile_requires_unlocking"
+              android:title="@string/qstile_requires_unlocking_title"
+              android:summary="@string/qstile_requires_unlocking_summary"
+              android:defaultValue="true" />
 
         <com.android.settingslib.RestrictedPreference
             android:key="screen_timeout"
