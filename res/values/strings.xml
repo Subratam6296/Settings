@@ -14280,4 +14280,8 @@
     <string name="status_bar_clock_auto_hide_title">Auto hide</string>
     <string name="status_bar_clock_auto_hide_summary">Hide clock if launcher is visible</string>
 
+    <!-- Statusbar Clock background chip -->
+    <string name="statusbar_clock_chip_title">Background chip</string>
+    <string name="statusbar_clock_chip_summary">Display accented chip behind clock</string> 
+
 </resources>
