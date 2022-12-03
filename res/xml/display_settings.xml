@@ -454,6 +454,12 @@
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
         </Preference>
+        
+        <Preference
+        android:key="monet_settings"
+        android:title="@string/monet_settings_title"
+        android:summary="@string/monet_settings_sammary"
+        android:fragment="com.android.settings.arrow.fragments.MonetSettings" />
 
         <com.arrow.support.preferences.SystemSettingListPreference
             android:key="power_menu_animations"
