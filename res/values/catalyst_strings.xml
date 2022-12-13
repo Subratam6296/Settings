@@ -663,4 +663,8 @@
     <!-- Fingerprint unlock -->
     <string name="fp_unlock_keystore_title">Force FP authentication</string>
     <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot or lockdown</string>
+    
+    <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">Force stop button</string>
+    <string name="notification_guts_kill_app_button_summary">Show force stop button in the notification\'s longpress menu</string>
 </resources>
