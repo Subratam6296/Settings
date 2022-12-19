@@ -16,21 +16,29 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="10dp">
         	
-       	<LinearLayout
-       	    android:layout_gravity="center"
-       	    android:orientation="vertical"
-       	    android:layout_width="0dp"
-       	    android:layout_height="wrap_content"
-       	    android:layout_weight="2">
-       	    
-       	    <TextView 
-                android:textSize="22sp"
+       	<RelativeLayout
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1.0"
+            android:layout_marginEnd="10dp">
+            <TextView
+                android:ellipsize="marquee"
                 android:id="@android:id/summary"
+                android:fadingEdge="horizontal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:maxLines="1"
-                android:singleLine="true"/>
-        </LinearLayout>
+                android:layout_marginTop="64.0dip"
+                android:textAlignment="center"
+                android:background="@drawable/homepage_text_bg"
+            	android:paddingHorizontal="8dp"
+            	android:paddingVertical="2dp"
+                android:singleLine="true"
+                android:textColor="?android:attr/textColorPrimary"
+                style="@style/op_control_text_style_h6" />
+        </RelativeLayout>
 
      <com.google.android.material.card.MaterialCardView
             android:layout_width="wrap_content"
