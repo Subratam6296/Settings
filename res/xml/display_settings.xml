@@ -327,6 +327,12 @@
             android:summary="@string/show_squiggle_animation_summary"
             android:defaultValue="true" />
             
+     <com.arrow.support.preferences.GlobalSettingSwitchPreference
+            android:key="pie_animation_style"
+            android:title="@string/pie_animation_style_title"
+            android:summary="@string/pie_animation_style_summary"
+            android:defaultValue="false" />
+            
      <ListPreference
             android:key="display_cutout_emulation"
             android:title="@string/display_cutout_emulation"
