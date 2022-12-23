@@ -485,4 +485,12 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
     <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    
+    <!-- Custom theme -->
+    <string name="custom_theme_title">Use Custom theme</string>
+    <string name="custom_theme_summary">Force custom background colors</string>
+    <string name="custom_theme_default">Default</string>
+    <string name="custom_theme_black">Black</string>
+    <string name="custom_theme_clear">Clear (BETA)</string>
+    <string name="custom_theme_vivid">Vivid(Monet)</string>
 </resources>
