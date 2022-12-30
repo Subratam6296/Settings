@@ -501,4 +501,11 @@
     <!-- USB configuration -->
     <string name="usb_default_config_title">USB configuration</string>
     <string name="usb_default_config_summary">Choose the default behavior when connected to a device via USB</string>
+    
+    <!-- Header styles -->
+    <string name="about_header_title">Header style (Restart Systemui)</string>
+    <string name="about_header_blur">BlurView</string>
+    <string name="about_header_scrim">AccentScrim</string>
+    <string name="about_header_none">Clean</string>
+    <string name="about_header_accent">Accent</string>
 </resources>

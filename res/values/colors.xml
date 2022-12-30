@@ -220,4 +220,5 @@
     
     <color name="header_txt_bg">@*android:color/system_accent1_300</color>
     <color name="op_control_text_color_primary_inverse">@*android:color/system_neutral2_800</color>
+    <color name="bg_accent">@*android:color/system_accent1_200</color>
 </resources>
