@@ -154,7 +154,7 @@
     <string name="total_ram">Total RAM</string>
     
     <!-- Setting home page -->
-    <string name="usercard_summary">Current active user, tap for more info</string>
+    <string name="usercard_summary">Current Active User.Tap For More Info</string>
     
     <!-- Model and Hardware -->
     <string name="syberia_processor_title">Processor</string>
