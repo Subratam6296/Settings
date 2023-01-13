@@ -72,10 +72,9 @@ public class Header extends SettingsPreferenceFragment implements OnPreferenceCh
     }
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-	Context mContext = getActivity().getApplicationContext();
-	ContentResolver resolver = mContext.getContentResolver();
+	ContentResolver resolver = getActivity().getContentResolver();
         if (preference == mAboutPhoneStyle) {
-            CatalystUtils.showSettingsRestartDialog(getContext());
+            CatalystUtils.showSystemUiRestartDialog(getActivity());
             return true;
         }
         return false;
